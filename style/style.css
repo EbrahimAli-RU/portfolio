@@ -224,6 +224,29 @@ html {
   height: 230px;
   border-radius: 4px;
 }
+
+.about_section_contact {
+  margin-left: 40%;
+  transition: 0.3s all linear;
+  border-bottom: 2px solid crimson;
+}
+
+.fa-arrow-right {
+  transition: 0.3s all linear;
+}
+.about_section_contact:hover .fa-arrow-right {
+  padding-left: 1rem;
+}
+.about_section_contact:hover span {
+  transition: 0.3s all linear;
+}
+.about_section_contact:hover span {
+  padding-left: 0.5rem;
+}
+
+.about_section_contact span {
+  font-weight: 500;
+}
 /* Skills section design */
 .skills {
   width: 70%;
